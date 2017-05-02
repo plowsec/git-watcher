@@ -1,0 +1,1 @@
+{"name": "git-watcher", "description": "Watches your preferred git repos and notify you of any activity", "uuid": "git-watcher@plowsec", "shell-version": ["3.24.1"]}
