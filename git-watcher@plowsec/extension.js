@@ -6,9 +6,9 @@ const Mainloop = imports.mainloop;
 const Util = imports.misc.util;
 const WATCH_INTERVAL = 60;
 const CMD_PATH = 'git-dude';
-const REPOS_DIR = '/home/user/.git-dude';
+const REPOS_DIR = '~/.git-dude'; //may be overwritten in git-dude
 
-let text, button;
+let button;
 let timeout = null;
 
 function launch()   {
